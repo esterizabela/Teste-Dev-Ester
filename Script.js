@@ -18,7 +18,7 @@ function printX() {
     for(let i = numberInput - 1; i > 0; i--) {
         let xMult = document.createElement('p')
         xMult.innerHTML = x.repeat(i)
-        
+        sequenceX.appendChild(xMult)
     }
 
 }
